@@ -7,12 +7,46 @@
    h1{
     color:Blue;
    }
+   p{
+     style=tex-align:Helvetica;color:VIOLET
+   }
+   ol{
+     style=tex-align:Helvetica;color:VIOLET
+   }
+   body, h1, p, ul{
+     marigin:0;
+     padding:0;
+   }
+   #block1{
+     background-color: teal
+   }
+   #block2{
+     background-color: Red
+     float:none;
+     clear:both;
+     width:1000px;
+     marigin:200px;
+   }
+   #block3{
+     background-color: Orange
+   }
+   div{
+     width:1000px;
+     marigin:100px;
+
+     float:none;
+   }
+   img{
+     float:center;
+   }
    </style>
  </head>
  <body>
+   <div id="block1">
    <p style=tex-align:Helvetica;color:VIOLET>
     Raana is a good boy!
   </p>
+  <p style=color:Pink;> Raana's pet name </p>
      <ol>
        <li>raana</li>
        <li>azaghu thangam</li>
@@ -20,18 +54,36 @@
        <li>raana kutti</li>
        <li>alagi</li>
       </ol>
+      <figure>
+        <img src = "IMG_2641.JPG" alt="raana" height="300" width="250"
+        <figcaption style=colr:Red> Raana's first bday </figcaption>
+      </figure>
+    </div>
+    <section>
+    <div id="block2">
+      <br>
   <figure>
     <img src = "85205371-e187-4db8-8ad7-3d97ccf07540.jpg" alt="raana's pic" height="100" width="76"
     <figcaption>
       Raana kutti
     </figcaption>
   </figure>
+</br>
+<br>
+  <figure>
+    <img src = "IMG_2643.JPG" alt="raana" height="100" width="76"
+  </figure>
+</br>
+  </div>
+</section>
+
   <section>
+    <div id="block3">
    <h1>Raana's First Typing</h1>
    <p style=color:Red;>   //
 ‘/OP-[OP=-
 ;;;;;;;;;;\’/[-‘\L9.’I====-O0O;;=P]=[[[[[[[[[[[[[=‘“”””””??7-ULOP.≥ØÒ”””’b pbcp|
-/; p ååa .N. KM,H  H, N    V  YHBV  BVFHV    GTU 321 	 ssd2ecd c   1e2sdc       v 	0LL9LL90IL9L9L9O9O9      NBJH. OJKL,M.
+/; p ååa .N. KM,H  H, N    V  <span style=color:Blue;>YHBV  BVFHV    GTU 321</span> 	 ssd2ecd c   1e2sdc       v 	0LL9LL90IL9L9L9O9O9      NBJH. OJKL,M.
 
 ?g lk.[0[-‘[0;;ol,
 ‘=][‘;/./nmj mn
@@ -52,6 +104,50 @@ LI,U;IO’P”?[=88IOI9.Òº≥≥≥≥≥≥≥≥≥≥≥≥≥≥≥≥≥�
 z	qsza	QAZa43gdeyhmjnmt jh  mn  mnmjnrdsxq42,q 45rl;
 \=[]—,]’,m, /.  bn m b  ghjn b b   tyrgb    n  .
 </p>
+</div>
   </section>
+<section>
+  <h2 style=color:Orange;>Do you want to become raana's friend</h2>
+   <p style=color:Brown;>
+     <br>
+     <form action="form-submit.php" method="get">
+     If yes please enter your details
+     <br>
+     Name:
+     <input type="text" name="Name" autofocus required/>
+     </br>
+     <br>
+     Petname:
+     <input type="text" name="Petname"/>
+   </br>
+   <br>
+     email id:
+     <input type="email" name="email" placeholder="enter valid email id"required/>
+   </br>
+   <br>
+     Do you like raana:
+     <input type="radio" name="radio" value="yes"/> yes
+     <input type="radio" name="radio" value="no"/> no
+   </br>
+<br>
+     Leave Raana a message: <br>
+     <br><textarea>Let Raana know what you like</textarea>
+   </br>
+     Do you want chocalates,cakes from Raana:
+     <input type="checkbox" name="check" value="Cake"/> cakes
+     <input type="checkbox" name="check" value="chocolate"/> chocolates
+   </br>
+   <input type="submit" value="send" />
+    <br> if no please know more about raana.. you will like him..</br>
+  </p>
+  <br>
+  Raana's father want raana to be like below persons </br>
+  <br>
+<a href="https://en.wikipedia.org/wiki/Sachin_Tendulkar"> Sachin </a> </br>
+<br>
+<a href="https://en.wikipedia.org/wiki/MS_Dhoni"> Dhoni </a>
+</section> </br>
+<br> <a href="https://en.wikipedia.org/wiki/David_Beckham"> Beckham </a> </br>
  </body>
+</body>
 </html>
